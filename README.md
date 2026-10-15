@@ -53,3 +53,7 @@
 | **`Main.java`** | Jack M., Preeti V. | Wrote console interface, admin/customer interactive menus, and input re-prompt validation loops. |
 | **`TestCase.java`** | Preeti V. | Wrote, tested, and revised the JUnit test suite (`Student.TestCase`) for normal and bad-input cases. |
 | **`README.md`** | All Team Members | Reviewed, structured, and documented project reflections, next steps, and attribution. |
+
+### Use of AI
+We used AI to write the test cases and the Main Class.
+
