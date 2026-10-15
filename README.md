@@ -41,6 +41,8 @@
 * **Test Plan:** Preeti V.
 * **System Diagrams & Console Menu UI:** Jack M.
 
+---
+
 ## Attribution
 
 | File / Class | Team Member(s) | Contribution / Role |
