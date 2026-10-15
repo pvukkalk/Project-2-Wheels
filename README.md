@@ -40,3 +40,16 @@
 * **Validation & Search Logic (`findByVin`, `searchByBrandModelColor`):** Jack H.
 * **Test Plan & JUnit Test Suite (`Student.TestCase`):** Preeti V.
 * **System Diagrams & Console Menu UI (`Main.java`, Admin/Customer loops):** Jack M.
+
+## Attribution
+
+| File / Class | Team Member(s) | Contribution / Role |
+| :--- | :--- | :--- |
+| **`LinkedChain.java`** | A. All, Jack H. | Wrote core generic data structure, implemented search, removal, and filtering logic. |
+| **`Vehicle.java`** | A. All | Wrote abstract base class and shared vehicle attributes/methods. |
+| **`Sedan.java`** | A. All | Wrote concrete subclass extending `Vehicle`. |
+| **`SUV.java`** | A. All | Wrote concrete subclass handling towing capacity and overridden methods. |
+| **`Trailer.java`** | A. All | Wrote non-vehicle inventory attributes (`type`, `weight`, `wheels`). |
+| **`Main.java`** | Jack M., Preeti V. | Wrote console interface, admin/customer interactive menus, and input re-prompt validation loops. |
+| **`TestCase.java`** | Preeti V. | Wrote, tested, and revised the JUnit test suite (`Student.TestCase`) for normal and bad-input cases. |
+| **`README.md`** | All Team Members | Reviewed, structured, and documented project reflections, next steps, and attribution. |
