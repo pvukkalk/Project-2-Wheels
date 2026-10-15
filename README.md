@@ -28,7 +28,7 @@
 
 ### Which Stretch Goals Will You Attempt?
 * **Attempted:** File I/O persistence (saving and loading inventory to/from a CSV file on startup/shutdown).
-* **Dropped:** Graphical User Interface (GUI) via JavaFX, keeping the focus strictly on a robust console-based architecture for this iteration.
+* **Dropped:** Implementing a Graphical User Interface (GUI).
 
 ### What New Tests Will You Need?
 * Unit tests covering `filterCanTow` with normal and boundary cases (e.g., capacity matching exact vs. lower limits).
