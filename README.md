@@ -36,10 +36,10 @@
 * Negative and boundary price tests inside `TestCase.java`.
 
 ### Who Does What?
-* **Class Design & Core Data Structures (`LinkedChain`, `Vehicle`, `Trailer`):** All team members (Collaborative baseline).
-* **Validation & Search Logic (`findByVin`, `searchByBrandModelColor`):** Jack H.
-* **Test Plan & JUnit Test Suite (`Student.TestCase`):** Preeti V.
-* **System Diagrams & Console Menu UI (`Main.java`, Admin/Customer loops):** Jack M.
+* **Class Design & Core Data Structures:** All team members.
+* **Validation & Search Logic:** Jack H.
+* **Test Plan:** Preeti V.
+* **System Diagrams & Console Menu UI:** Jack M.
 
 ## Requirements
 
