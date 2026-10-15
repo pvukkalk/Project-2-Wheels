@@ -41,6 +41,34 @@
 * **Test Plan & JUnit Test Suite (`Student.TestCase`):** Preeti V.
 * **System Diagrams & Console Menu UI (`Main.java`, Admin/Customer loops):** Jack M.
 
+## Requirements
+
+- JDK 17 recommended. The app itself runs on any recent JDK, but the test
+  library in `lib/student.jar` installs a Java security manager, which newer
+  JDKs (24+) no longer allow — run the tests on JDK 17–21. On JDK 18–21, also
+  pass `-Djava.security.manager=allow` to `java`.
+
+## Testing
+
+Tests use JUnit 4 through `student.TestCase` from `lib/student.jar`, with one
+test class per source class in `src/test/java`. Each public method has a normal
+case and a bad-input case, including empty-inventory searches and removing items
+that aren't on the lot. Menu input in `MainTest` is scripted with `setIn(...)`.
+
+From the project root, using JDK 17–21:
+
+```bash
+mkdir -p out
+javac -cp lib/student.jar -d out src/main/java/*.java src/test/java/*.java
+java -cp "out:lib/student.jar" org.junit.runner.JUnitCore \
+  LinkedChainTest VehiclesTest SedanTest SUVTest PickupTest TrailerTest \
+  DealershipTest MainTest
+```
+
+On Windows, use `;` instead of `:` in the classpath. If your `javac` is newer
+than the JDK running the tests, add `--release 17` to the `javac` command. The
+tests also run directly from VS Code's Java test runner.
+
 ## Attribution
 
 | File / Class | Team Member(s) | Contribution / Role |
@@ -56,4 +84,5 @@
 
 ### Use of AI
 We used AI to write the test cases and the Main Class.
-
+Additionally used AI to check project against the Spec, and fix any bugs that existed.
+AI also suggested moving some logic from the LinkedChain to a new Dealership class
