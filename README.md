@@ -1,4 +1,4 @@
-# Vehicle & Trailer Inventory System — MVP Prototype
+# Vehicle & Trailer Inventory System — WHEELS
 
 ## Reflection
 
