@@ -85,4 +85,5 @@ tests also run directly from VS Code's Java test runner.
 ### Use of AI
 We used AI to write the test cases and the Main Class.
 Additionally used AI to check project against the Spec, and fix any bugs that existed.
-AI also suggested moving some logic from the LinkedChain to a new Dealership class
+AI also suggested moving some logic from the LinkedChain to a new Dealership class.
+Used Claude to help push the test classes so they run.
